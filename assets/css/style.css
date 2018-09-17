@@ -1,22 +1,94 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff
+* {
+    box-sizing: border-box;
 }
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
+header {
+    height: 100%;
+    padding: 20px;
     color: #777777;
-    text-align: right;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+a:link {
     text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#left {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+}
+
+#middle {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    background: #ffffff;
+}
+
+#right {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    color: #777777;
+    background: #ffffff;
+}
+
+.mainbody {
+    background-image: url("/Users/andr3w/Desktop/2018UCB/Basic-Portfolio/assets/images/bananas.png");
+    width: 100%;
+    padding: 100px;
+}
+
+#full {
+    width: 960px;
+    height: 500px;
+    padding: 20px;
+    clear: both;
+    background: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    font-family: Helvetica;
+}
+
+#portfolio {
+    width: 960px;
+    height: 600px;
+    padding: 20px;
+    clear: both;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+.gallery img{
+    margin: 10px;
 }
 
 h1 {
     color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    padding: 20px;
+    clear: both;
+    background: #666666;
+    color: #ffffff;
+    border-top: 10px solid #4aaaa5;
 }

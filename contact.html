@@ -4,26 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div class="topnav">
-        <a class="active">Andrew Violan</a>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+    
+    <header>
+        <section id="left" align="center">
+            Andrew Violan
+        </section>
+        <section id="middle">
+        </section>
+        <section id="right" align="center">
+            <a href="index.html">About</a> | 
+            <a href="portfolio.html">Portfolio</a> | 
+            <a href="contact.html">Contact</a>
+        </section>
+    </header>
+
+    <div class="mainbody">
+        <section id="full">
+            <h1>Contact</h1>
+            <hr>
+                <form>
+                    Name<br>
+                    <input type="text" name="name" value="John Smith" style="width:898px; height:35px;">
+                </form>
+                <br>
+                <form>
+                    Email<br>
+                    <input type="text" name="email" value="example@gmail.com" style="width:898px; height:35px;">
+                <br>
+                </form>
+                <br>
+                <form action="/action_page.php">
+                    Message<br>
+                    <textarea name="message" rows="15" cols="125">   
+                    </textarea><br>
+                <input type="submit" value="Submit">
+                </form>
+        </section>
     </div>
-    <h1>Contact</h1>
-    <hr>
-    <form>
-        Name<br>
-        <input type="text" name="firstname"><br>
-        Email<br>
-        <input type="text" name="email"><br>
-        Message<br>
-        <input type="text" name="message"><br>
-        <input type="submit" value="Submit">
-    </form>
+
+    <footer align="center">
+            Copyright
+    </footer>
+
 </body>
 </html>
