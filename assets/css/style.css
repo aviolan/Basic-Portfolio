@@ -31,6 +31,7 @@ a:active {
     width: 33.3%;
     padding: 20px;
     color: #ffffff;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4aaaa5;
 }
@@ -47,6 +48,7 @@ a:active {
     width: 33.3%;
     padding: 20px;
     color: #777777;
+    text-align: center;
     background: #ffffff;
 }
 
@@ -60,17 +62,31 @@ a:active {
     width: 960px;
     height: 500px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
     clear: both;
     background: #ffffff;
     color: #777777;
+    text-align: left;
     border: 2px solid #dddddd;
     font-family: Helvetica;
+}
+
+.me {
+    float: left;
+    margin-right: 20px;
+}
+
+.about {
+    line-height: 200%;
 }
 
 #portfolio {
     width: 960px;
     height: 600px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
     clear: both;
     background: #ffffff;
     border: 2px solid #dddddd;
@@ -90,5 +106,6 @@ footer{
     clear: both;
     background: #666666;
     color: #ffffff;
+    text-align: center;
     border-top: 10px solid #4aaaa5;
 }
