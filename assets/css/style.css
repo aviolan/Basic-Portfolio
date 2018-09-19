@@ -75,17 +75,70 @@ a:active {
 
 #portfolio {
     width: 960px;
-    height: 600px;
+    height: 940px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
     background: #ffffff;
     border: 2px solid #dddddd;
+    position: relative;
 }
 
 .gallery img{
     margin: 10px;
+    width: 275px;
+    height: 206px;
+}
+
+.text1 {
+    position: absolute;
+    bottom: 630px;
+    left: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 106px;
+    padding-right: 107px;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 630px;
+    left: 329px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 95px;
+    padding-right: 107px;
+}
+
+.text3 {
+    position: absolute;
+    bottom: 400px;
+    left: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 88px;
+    padding-right: 107px;
+}
+
+.text4 {
+    position: absolute;
+    bottom: 400px;
+    left: 329px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 38px;
+    padding-right: 107px;
+}
+
+.text5 {
+    position: absolute;
+    bottom: 170px;
+    left: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 38px;
+    padding-right: 107px;
 }
 
 h1 {
