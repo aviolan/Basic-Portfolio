@@ -36,6 +36,8 @@ a:active {
     margin: 0;
     padding: 0;
     color: #777777;
+    margin-right: 210px;
+    margin-left: 230px;
 }
 
 .nav li {
