@@ -3,10 +3,6 @@
 }
 
 header {
-    height: 85px;
-    padding: 20px;
-    color: #777777;
-    background: #ffffff;
     border-bottom: 2px solid #cccccc;
 }
 
@@ -26,22 +22,27 @@ a:active {
     text-decoration: underline;
 }
 
-#left {
-    float: left;
-    width: 190px;
-    padding: 20px;
-    color: #ffffff;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
+.nav {
+    background-color: #ffffff;
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    color: #777777;
 }
 
-#right {
-    float: right;
+.nav li {
+    display: inline-block;
+    font-size: 20px;
     padding: 20px;
-    color: #777777;
+}
+
+.name {
+    float: left;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
     text-align: center;
-    background: #ffffff;
 }
 
 .mainbody {
