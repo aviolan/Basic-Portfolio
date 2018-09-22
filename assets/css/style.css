@@ -65,6 +65,7 @@ a:active {
     width: 100%;
     padding: 100px;
     padding-top: 40px;
+    background-image: url("assets/images/bananas.png");
 }
 
 #full {
