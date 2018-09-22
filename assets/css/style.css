@@ -7,7 +7,6 @@ body {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    background: url('Basic-Portfolio/assets/images/bananas.png');
 }
 
 header {
@@ -66,6 +65,7 @@ a:active {
     width: 100%;
     padding: 100px;
     padding-top: 40px;
+    background: url('assets/images/bananas.png');
 }
 
 #full {
