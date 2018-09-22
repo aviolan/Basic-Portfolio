@@ -7,10 +7,12 @@ body {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    background-image: url(Basic-Portfolio/assets/images/bananas.png);
 }
 
 header {
     border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
 }
 
 a:link {
@@ -61,7 +63,6 @@ a:active {
 }
 
 .mainbody {
-    background-image: url("Basic-Portfolio/assets/images/bananas.png");
     width: 100%;
     padding: 100px;
     padding-top: 40px;
