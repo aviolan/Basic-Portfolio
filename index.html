@@ -9,20 +9,21 @@
 </head>
 <body>
     
-    <header>
-        <ul class="nav">
-            <li id="name">Andrew Violan</li>
-            <li id="link"><a href="index.html">About</a> | </li>
-            <li id="link"><a href="portfolio.html">Portfolio</a> | </li>
-            <li id="link"><a href="contact.html">Contact</a></li>
-        </ul>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Andrew Violan</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="mainbody">
-        <section id="full">
+    <div id="main-container" class="container">
+        <section class="main-section">
             <h1>About Me</h1>
-            <hr><br>
-                <img src="assets/images/Profile-Image.jpg" alt="Me" id="me">
+                <img src="assets/images/Profile-Image.jpg" class="auth-image">
                 <p class="about">I go by Andrew, Drew, or Andy. Born in Pasadena, CA and raised in San Francisco.
                 I went to SFSU, and currently work at a Biotech Company in South San Francisco. I've decided
                 to take coding bootcamp in order to change up my career and see what else is out there. I would 
@@ -38,7 +39,9 @@
     </div>
 
     <footer>
-        Copyright
+        <div class="container">
+            Copyright &copy;
+        </div>
     </footer>
 
 </body>
