@@ -25,6 +25,10 @@ p {
   margin-bottom: 20px;
 }
 
+.git {
+    text-align: center;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
